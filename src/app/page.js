@@ -23,7 +23,7 @@ export default function Home() {
           loading="eager"
         />
         <div>
-          <h1 className="text-5xl font-bold text-primary">Hi, I'm Johnny.</h1>
+          <h1 className="text-5xl font-bold text-primary">Hi, I&apos;m Johnny.</h1>
           <p className="py-6">Full-stack software developer by day, and a devoted pizza enthusiast{" "}
             <RoughNotation
               color="#fe003a"
@@ -52,7 +52,7 @@ export default function Home() {
             </RoughNotation>{" "}
             and learning new technologies.
             <br />
-            <br />Whether it's front-end or back-end, I'm always{" "}
+            <br />Whether it&apos;s front-end or back-end, I&apos;m always{" "}
             <RoughNotation
               type="box"
               multiline="true"
