@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
-
+import { faHandshake } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           className="hidden md:block rounded-lg"
           alt="headshot of johnny hall"
           loading="eager"
+          priority={true}
         />
         <Image
           src="/images/hero-mobile.jpg"
@@ -21,6 +23,7 @@ export default function Home() {
           className="block md:hidden rounded-lg"
           alt="headshot of johnny hall"
           loading="eager"
+          priority={true}
         />
         <div>
           <h1 className="text-5xl font-bold text-primary">Hi, I&apos;m Johnny.</h1>
@@ -68,8 +71,14 @@ export default function Home() {
 
 
 
+          <div className="flex flex-row gap-x-10">
 
-          <button className="btn bg-primary text-white">Get Started</button>
+            <button className="btn bg-primary text-white hover:text-black">Get in touch
+              <FontAwesomeIcon icon={faHandshake} size="xs" />
+            </button>
+            <button className="btn  text-primary border-primary border-2 hover:text-black">See my projects</button>
+
+          </div>
         </div>
       </div>
     </div>
