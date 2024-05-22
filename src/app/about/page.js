@@ -51,7 +51,7 @@ export default function About() {
                 className=" text-md col-span-3 flex items-center text-justify  lg:text-lg md:order-none order-3"
             >
                 Upon returning to the UK, I wanted to challenge myself in new ways and
-                so undertook the famous 'Knowledge of London' exam. Subsequently, I
+                so undertook the famous &apos;Knowledge of London&apos; exam. Subsequently, I
                 worked as a black cab driver, navigating the bustling streets of London
                 while honing my communication and problem-solving skills. However, my
                 passion for technology & programming soon resurfaced as I found myself
@@ -66,12 +66,12 @@ export default function About() {
                 color="blue-gray"
                 className="text-md  col-span-3 flex items-center text-justify md:order-none order-5 lg:text-lg"
             >
-                Dabbling at the weekends with JavaScript wasn't cutting it anymore, so I
+                Dabbling at the weekends with JavaScript wasn&apos;t cutting it anymore, so I
                 enrolled in the Northcoders Coding Bootcamp to kickstart a new career in
                 software development. The amazing course covered so much ground, and I
                 was able to build on my existing knowledge to develop a deep
                 understanding of web development. By the end of the course, I was
-                pitching, planning, and then building full-stack apps! When I'm not
+                pitching, planning, and then building full-stack apps! When I&apos;m not
                 working on my latest programming project, you can find me enjoying a
                 delicious slice of pizza or spending time with my beloved pug Ivy in the
                 great outdoors.

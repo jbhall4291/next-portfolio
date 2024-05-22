@@ -48,8 +48,8 @@ export default function Skills() {
                     />
                 </div>
                 <p color="blue-gray" className=" pt-10 text-center lg:text-lg">
-                    But my learning journey doesn't stop there! I've been expanding my tech
-                    arsenal ever since, and I'm currently delving into the fundamentals of
+                    But my learning journey doesn&apos;t stop here! I&apos;ve been expanding my tech
+                    arsenal ever since, and I&apos;m currently delving into the fundamentals of
                     Python and exploring the possibilities of the Three.js library.
                 </p>
             </div>
