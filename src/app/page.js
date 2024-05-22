@@ -1,7 +1,10 @@
 import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
-import { faHandshake } from '@fortawesome/free-solid-svg-icons'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHandshake, faCircleRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function Home() {
   return (
@@ -73,10 +76,13 @@ export default function Home() {
 
           <div className="flex flex-row gap-x-10">
 
-            <button className="btn bg-primary text-white hover:text-black">Get in touch
-              <FontAwesomeIcon icon={faHandshake} size="xs" />
+            <button className="btn bg-primary border-2 border-primary text-white hover:border-primary hover:text-white hover:bg-primary text-1xl hover:shadow-lg hover:shadow-primary hover:drop-shadow-2xl">Get in touch
+              <FontAwesomeIcon icon={faHandshake} className="fa-light" size="2xl" />
             </button>
-            <button className="btn  text-primary border-primary border-2 hover:text-black">See my projects</button>
+            <button className="btn  text-primary border-white border-2 hover:text-black bg-white">See my projects
+              <FontAwesomeIcon icon={faCircleRight} className="fa-light" size="2xl" />
+            </button>
+
 
           </div>
         </div>
