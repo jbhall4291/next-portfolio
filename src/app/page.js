@@ -12,8 +12,8 @@ export default function Home() {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <Image
           src="/images/hero-desktop.jpg"
-          width={500}
-          height={500}
+          width={460}
+          height={460}
           className="hidden md:block rounded-lg"
           alt="headshot of johnny hall"
           loading="eager"
@@ -74,14 +74,16 @@ export default function Home() {
 
 
 
-          <div className="flex flex-row gap-x-10">
+          <div className="flex flex-row gap-x-10  animate-[wiggle_1s_ease-in-out_infinite]">
 
-            <button className="btn bg-primary border-2 border-primary text-white hover:border-primary hover:text-white hover:bg-primary text-1xl hover:shadow-lg hover:shadow-primary hover:drop-shadow-2xl">Get in touch
-              <FontAwesomeIcon icon={faHandshake} className="fa-light" size="2xl" />
+            <button className="btn transition-all duration-700 bg-primary border-2 border-primary text-white hover:border-primary  hover:bg-primary text-1xl  hover:shadow-[0_0px_15px_rgba(254,_0,_58,_1)] ">Get in touch
+              <FontAwesomeIcon icon={faHandshake} className="fa-regular fa-xl" />
             </button>
-            <button className="btn  text-primary border-white border-2 hover:text-black bg-white">See my projects
-              <FontAwesomeIcon icon={faCircleRight} className="fa-light" size="2xl" />
+            <button className="btn  transition-all duration-700 text-primary border-primary border-2  bg-white hover:bg-white hover:text-primary hover:border-primary  hover:shadow-[0_0px_15px_rgba(254,_0,_58,_1)] ">See my projects
+              <FontAwesomeIcon icon={faCircleRight} className="fa-regular  fa-xl" />
             </button>
+
+
 
 
           </div>

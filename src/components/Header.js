@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 lg:px-10 text-xl">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -16,7 +16,7 @@ export default function Header() {
                     </ul>
                 </div>
 
-                <Link className="btn btn-ghost text-xl" href="/">Johnny Hall : Software Developer</Link>
+                <Link className="" href="/">Johnny Hall : Software Developer</Link>
 
             </div>
             <div className="navbar-end hidden lg:flex ">
