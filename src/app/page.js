@@ -32,7 +32,7 @@ export default function Home() {
         />
 
         <div>
-          <h1 className="text-4xl md:text-6xl font-bold text-primary">Hi, I&apos;m Johnny.</h1>
+          <h1 className="text-center lg:text-left text-4xl md:text-6xl font-bold text-primary">Hi, I&apos;m Johnny.</h1>
           <h2 className="pt-4 pb-6 md:py-6 text-lg text-[#1f232a]">Full-stack software developer by day, and a devoted pizza enthusiast{" "}
             <RoughNotation
               color={notationPrimaryColour}
