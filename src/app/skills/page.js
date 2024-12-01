@@ -34,9 +34,10 @@ export default function Skills() {
 
 
                     <div className="flex flex-wrap justify-center gap-1.5 py-5  md:m-auto md:w-5/6 md:gap-9 md:py-20">
-                        <SkillCard label="JavaScript" icon="devicon-javascript-plain colored" />
                         <SkillCard label="React" icon="devicon-react-original colored" />
-                        <SkillCard label="node.js" icon="devicon-nodejs-plain colored" />
+                        <SkillCard label="Next.js" icon="devicon-nextjs-plain colored" />
+                        <SkillCard label="JavaScript" icon="devicon-javascript-plain colored" />
+                        <SkillCard label="Node.js" icon="devicon-nodejs-plain colored" />
                         <SkillCard label="Firebase" icon="devicon-firebase-plain colored" />
                         <SkillCard label="PostgreSQL" icon="devicon-postgresql-plain colored" />
                         <SkillCard label="MongoDB" icon="devicon-mongodb-plain colored" />
