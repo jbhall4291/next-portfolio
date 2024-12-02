@@ -60,7 +60,7 @@ function ContactForm() {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: encode({
-                    'form-name': 'consultation',
+                    'form-name': 'contact',
                     'subject': 'Testing subject!',
                     ...formData
                 }),
@@ -111,8 +111,7 @@ function ContactForm() {
             ) : (
                 <div className="text-left w-full">
                     <div className=" mx-auto text-center flex flex-col gap-y-1.5">
-                        {/* <h1 className="text-2xl">{t("Consultation_ContactForm.heading").toUpperCase()} </h1> */}
-                        {/* <p>{t("Consultation_ContactForm.subheading")}</p> */}
+
                     </div>
                     <form onSubmit={handleSubmit} className="flex flex-col gap-y-4">
                         <div>
