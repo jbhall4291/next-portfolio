@@ -100,7 +100,7 @@ function ContactForm() {
     const { name, email, visaType, message } = formData;
 
     return (
-        <div className="flex flex-col gap-y-1.5 w-full mx-auto  items-center p-2 px-2 text-black font-customSans ">
+        <div className="flex flex-col gap-y-1.5 w-full mx-auto  items-center text-black font-customSans ">
             {formSubmitted ? (
                 <div className=" flex flex-col gap-y-3 text-center  justify-center  border-black border-[5px] p-8 -lg ">
                     <h2>thanks, {formData.name}.</h2>
@@ -116,7 +116,7 @@ function ContactForm() {
                     <form onSubmit={handleSubmit} className="flex flex-col gap-y-4">
                         <div>
                             <p>
-                                <label>Name</label>
+                                <label>Name:</label>
                             </p>
                             <input
                                 className="bg-[#f7f7f7] border rounded border-solid w-full border-offBlack p-2   focus:outline focus:outline-highlight focus:border-highlight -lg"
@@ -125,7 +125,7 @@ function ContactForm() {
                                 value={name}
                                 onChange={handleChange}
                                 onBlur={handleBlur}
-                                placeholder="placeholder"
+                                placeholder="Your Name"
                             />
                             <div className="h-1">
                                 {errors.name && <p className="text-red-500 text-xs">{errors.name}</p>}
@@ -134,7 +134,7 @@ function ContactForm() {
 
                         <div>
                             <p>
-                                <label>Email</label>
+                                <label>Email:</label>
                             </p>
                             <input
                                 className="bg-[#f7f7f7] border rounded border-solid w-full border-offBlack p-2 focus:outline focus:outline-highlight focus:border-highlight -lg"
@@ -143,7 +143,7 @@ function ContactForm() {
                                 value={email}
                                 onChange={handleChange}
                                 onBlur={handleBlur}
-                                placeholder="placeholder"
+                                placeholder="Your Email"
                             />
                             <div className="h1">
                                 {errors.email && <p className="text-red-500 text-xs">{errors.email}</p>}
@@ -153,7 +153,7 @@ function ContactForm() {
 
                         <div>
                             <p>
-                                <label>placeholder</label>
+                                <label>Message:</label>
                             </p>
                             <textarea
                                 className="bg-[#f7f7f7] border rounded  border-solid w-full  block border-offBlack p-2  focus:outline focus:outline-highlight focus:border-highlight -lg"
@@ -162,7 +162,7 @@ function ContactForm() {
                                 value={message}
                                 onChange={handleChange}
                                 onBlur={handleBlur}
-                                placeholder="placeholder"
+                                placeholder="Your Message"
                             />
                             <div className="h-1">
                                 {errors.message && <p className="text-red-500 text-xs">{errors.message}</p>}
@@ -170,10 +170,12 @@ function ContactForm() {
                         </div>
                         <button
                             type="submit"
-                            className="px-5 py-3 flex flex-row justify-center items-center gap-x-2 bg-highlight hover:bg-highlight-dark rounded text-base font-semibold text-white w-full transition ease-in-out duration-[300ms]"
+                            className="btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2  rounded text-base font-semibold text-white w-full "
                         >
-                            submit
+                            Submit Message
                         </button>
+
+
                     </form>
                 </div>
             )}
