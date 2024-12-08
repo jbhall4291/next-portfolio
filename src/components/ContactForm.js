@@ -105,7 +105,7 @@ function ContactForm() {
                 <div className=" flex flex-col gap-y-3 text-center  justify-center  text-lg p-8 -lg ">
                     <h2>Thanks for your message, {formData.name}.</h2>
                     <p className="max-w-2xl   mx-auto  font-light text-black text-base  md:text-lg   ">
-                        I'll be in touch soon!
+                        I&apos;ll be in touch soon!
                     </p>
                 </div>
             ) : (
