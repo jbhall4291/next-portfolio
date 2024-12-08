@@ -100,12 +100,12 @@ function ContactForm() {
     const { name, email, visaType, message } = formData;
 
     return (
-        <div className="flex flex-col gap-y-1.5 w-full mx-auto  items-center text-black font-customSans ">
+        <div className="flex flex-col gap-y-1.5 w-full mx-auto  items-center text-black  ">
             {formSubmitted ? (
-                <div className=" flex flex-col gap-y-3 text-center  justify-center  border-black border-[5px] p-8 -lg ">
-                    <h2>thanks, {formData.name}.</h2>
-                    <p className="max-w-2xl   mx-auto  font-light text-black text-base  md:text-lg   font-customSans">
-                        success sub message
+                <div className=" flex flex-col gap-y-3 text-center  justify-center  text-lg p-8 -lg ">
+                    <h2>Thanks for your message, {formData.name}.</h2>
+                    <p className="max-w-2xl   mx-auto  font-light text-black text-base  md:text-lg   ">
+                        I'll be in touch soon!
                     </p>
                 </div>
             ) : (

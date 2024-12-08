@@ -18,7 +18,7 @@ export default function Contact() {
                     <a href="mailto:jbhall4291@gmail.com" target="_blank" rel="noreferrer">
                         <button
                             type="submit"
-                            className=" btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2 w-[226px] rounded text-base font-semibold text-white"
+                            className=" btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2 w-[226px] rounded text-base  text-white"
                         >
                             <div>Email Me</div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
                     <a href="https://www.linkedin.com/in/johnny-hall-dev/" target="_blank" rel="noreferrer">
                         <button
                             type="submit"
-                            className=" btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2 w-[226px]  rounded text-base font-semibold text-white"
+                            className=" btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2 w-[226px]  rounded text-base  text-white"
                         >
                             <div>Connect On LinkedIn</div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
                     <a href="https://github.com/jbhall4291" target="_blank" rel="noreferrer">
                         <button
                             type="submit"
-                            className=" btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2  w-[226px] rounded text-base font-semibold text-white"
+                            className=" btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2  w-[226px] rounded text-base  text-white"
                         >
                             <div>View My GitHub </div>
 
