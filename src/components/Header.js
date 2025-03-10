@@ -12,7 +12,7 @@ export default function Header() {
                         <Link href="/" >Home</Link>
                         <Link href="/skills">Skills</Link>
                         <Link href="/skills">Projects</Link>
-                        <Link href="/about">About</Link>
+                        {/* <Link href="/about">About</Link> */}
                         <Link href="/contact">Contact</Link>
                     </ul>
                 </div>
@@ -23,7 +23,7 @@ export default function Header() {
                     <Link href="/" className="hover:text-primary">Home</Link>
                     <Link href="/skills" className="hover:text-primary">Skills</Link>
                     <Link href="/projects" className="hover:text-primary">Projects</Link>
-                    <Link href="/about" className="hover:text-primary">About</Link>
+                    {/* <Link href="/about" className="hover:text-primary">About</Link> */}
                     <Link href="/contact" className="hover:text-primary">Contact</Link>
                 </ul>
             </div>
