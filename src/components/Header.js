@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <div className="navbar bg-base-100 lg:px-10 text-xl text-white">
+        <div className="navbar bg-base-100 lg:px-10 text-xl text-white sticky top-0 z-40">
             <div className="w-full md:navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
