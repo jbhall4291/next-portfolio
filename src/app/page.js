@@ -79,15 +79,15 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row gap-x-8 gap-y-4">
 
-            <button className="font-semibold text-lg btn rounded-lg transition-all duration-700 bg-primary border-2 border-primary text-white hover:border-primary  hover:bg-primary text-1xl  hover:shadow-[0_0px_15px_rgba(254,_0,_58,_1)] ">Get in touch
+            <a href='/contact' className="font-semibold text-lg btn rounded-lg transition-all duration-700 bg-primary border-2 border-primary text-white hover:border-primary  hover:bg-primary text-1xl  hover:shadow-[0_0px_15px_rgba(254,_0,_58,_1)] ">Get in touch
               <FontAwesomeIcon icon={faHandshake} className="fa-regular fa-xl" />
-            </button>
+            </a>
 
 
-            <button className="font-semibold text-lg btn rounded-lg transition-all duration-700 text-primary border-primary border-2  bg-white hover:bg-white hover:text-primary hover:border-primary  hover:shadow-[0_0px_15px_rgba(254,_0,_58,_1)] ">
+            <a href="/projects" className="font-semibold text-lg btn rounded-lg transition-all duration-700 text-primary border-primary border-2  bg-white hover:bg-white hover:text-primary hover:border-primary  hover:shadow-[0_0px_15px_rgba(254,_0,_58,_1)] ">
               See my projects
               <FontAwesomeIcon icon={faCircleRight} className="fa-regular  fa-xl" />
-            </button>
+            </a>
 
 
           </div>
