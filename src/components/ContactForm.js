@@ -168,12 +168,17 @@ function ContactForm() {
                                 {errors.message && <p className="text-red-500 text-xs">{errors.message}</p>}
                             </div>
                         </div>
+
                         <button
                             type="submit"
-                            className="btn btn-secondary px-5 py-3 flex flex-row justify-center items-center gap-x-2  rounded text-base font-semibold text-white w-full "
+                            className=" btn w-full btn-primary px-5 py-3 flex flex-row justify-center items-center gap-x-2 rounded text-base  text-white"
                         >
-                            Submit Message
+                            <div>Submit Message</div>
                         </button>
+
+
+
+
 
 
                     </form>
