@@ -16,7 +16,7 @@ export default function Header() {
                         <Link href="/contact" className="hover:text-primary">Contact</Link>
                     </ul>
                 </div>
-                <Link className="text-center md:text-left text-[1.1rem] lg:text-[1.3rem] hover:text-primary" href="/">{'{ johnny hall : software developer }'}</Link>
+                <Link className="text-center pr-[30px] w-full md:w-fit md:text-left text-[1.1rem] lg:text-[1.3rem] hover:text-primary" href="/">{'{ johnny hall : software developer }'}</Link>
             </div>
             <div className="navbar-end hidden md:flex">
                 <ul className="menu menu-horizontal lg:flex gap-x-10 text-[1.1rem] lg:text-[1.3rem]">
