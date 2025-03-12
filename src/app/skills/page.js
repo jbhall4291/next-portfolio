@@ -18,7 +18,7 @@ export default function Skills() {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.75, ease: "easeOut" }}
                     id="skills"
-                    className="container mx-auto flex flex-col px-5 gap-16 lg:px-10 text-prose justify-center max-w-[800px]"
+                    className="container mx-auto flex flex-col px-5 gap-16 lg:px-10 text-prose justify-center max-w-[700px]"
                 >
                     <p className=" text-left lg:text-lg max-w-[75ch] self-center">
 
@@ -31,16 +31,29 @@ export default function Skills() {
                     </p>
 
                     <div className="flex flex-col justify-center items-center ">
-                        <div className="text-left w-fit pb-2">⚙️ Languages & Frameworks</div>
+                        <div className="text-left w-fit pb-2">💻 Languages</div>
+                        <div className="flex flex-row flex-wrap  gap-5 justify-center">
+                            <SkillCard label="JavaScript" icon="devicon-javascript-plain colored" />
+                            <SkillCard label="TypeScript" icon="devicon-typescript-plain colored" />
+                            <SkillCard label="C#" icon="devicon-csharp-plain colored" />
+                            <SkillCard label="Dart" icon="devicon-dart-plain colored" />
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col justify-center items-center ">
+                        <div className="text-left w-fit pb-2">🧰 Frameworks & Libraries</div>
                         <div className="flex flex-row flex-wrap  gap-5 justify-center">
                             <SkillCard label="React" icon="devicon-react-original colored" />
                             <SkillCard label="Next.js" icon="devicon-nextjs-plain colored" />
-                            <SkillCard label="C#" icon="devicon-csharp-plain colored" />
                             <SkillCard label=".NET" icon="devicon-dot-net-plain colored" />
+                            <SkillCard label="Flutter" icon="devicon-flutter-plain colored" />
+
                             <SkillCard label="Vue.js" icon="devicon-vuejs-plain colored" />
                             <SkillCard label="Express.js" icon="devicon-express-original colored" />
-                            <SkillCard label="JavaScript" icon="devicon-javascript-plain colored" />
                             <SkillCard label="Node.js" icon="devicon-nodejs-plain colored" />
+
+
+
                         </div>
                     </div>
 
@@ -69,12 +82,12 @@ export default function Skills() {
                         <div className="flex flex-row flex-wrap  gap-5 justify-center w-fit">
                             <SkillCard label="Tailwind" icon="devicon-tailwindcss-plain colored" />
                             <SkillCard label="Bootstrap" icon="devicon-bootstrap-plain colored" />
+                            <SkillCard label="HTML5" icon="devicon devicon-html5-plain colored" />
+                            <SkillCard label="CSS3" icon="devicon devicon-css3-plain colored" />
                             <SkillCard
                                 label="Figma"
                                 icon="devicon-figma-plain colored text-2xl md:text-5xl "
                             />
-                            <SkillCard label="HTML5" icon="devicon devicon-html5-plain colored" />
-                            <SkillCard label="CSS3" icon="devicon devicon-css3-plain colored" />
                         </div>
                     </div>
                 </div>
