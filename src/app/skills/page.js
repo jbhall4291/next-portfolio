@@ -8,7 +8,7 @@ export default function Skills() {
     return (
         <>
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-            <main className=" bg-white  min-h-[calc(100vh-64px)] flex flex-col justify-center  py-4" >
+            <main className=" bg-white  min-h-[calc(100vh-64px)] flex flex-col justify-center  py-4 " >
 
 
 
@@ -18,7 +18,7 @@ export default function Skills() {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.75, ease: "easeOut" }}
                     id="skills"
-                    className="container mx-auto flex flex-col px-5 gap-16 lg:px-10 text-prose justify-center max-w-[700px]"
+                    className="container mx-auto flex flex-col px-5 gap-16 lg:px-10 text-prose justify-center max-w-[700px] pb-96"
                 >
                     <p className=" text-left lg:text-lg max-w-[75ch] self-center">
 
@@ -74,6 +74,7 @@ export default function Skills() {
                             <SkillCard label="Azure" icon="devicon-azure-plain colored" />
                             <SkillCard label="Git" icon="devicon-git-plain colored" />
                             <SkillCard label="Jest" icon="devicon-jest-plain colored" />
+                            <SkillCard label="Netlify" icon="devicon-netlify-plain colored" />
                         </div>
                     </div>
 
